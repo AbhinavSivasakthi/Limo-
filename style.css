@@ -1,0 +1,264 @@
+/* Reset and Base Styles */
+body, h1, h2, h3, p, ul, li, table, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header */
+header {
+    background-color: #b8860b;
+    color: white;
+    padding: 15px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #b8860b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #daa520;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #fff8dc;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.why-choose-us ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.why-choose-us li {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #b8860b;
+}
+
+/* Services Section */
+.services {
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: black;
+    border: 1px solid #b8860b;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.card h3 {
+    color: #b8860b;
+}
+
+.card p {
+    margin-top: 10px;
+}
+
+/* Rates Section */
+.rates {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #b8860b;
+    text-align: center;
+}
+
+th {
+    background-color: #b8860b;
+    color: white;
+}
+
+td {
+    background-color: #fff8dc;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 20px;
+    background-color: #fff8dc;
+    text-align: center;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.testimonial-cards .card {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #b8860b;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.testimonial-cards h4 {
+    color: #b8860b;
+    margin-top: 10px;
+}
+
+/* Booking Section */
+.booking {
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff8dc;
+    padding: 20px;
+    border: 1px solid #b8860b;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #b8860b;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+form input, form select {
+    border: 1px solid #b8860b;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #b8860b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #daa520;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact ul li {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #b8860b;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #b8860b;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #b8860b;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
