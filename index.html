@@ -11,6 +11,12 @@
     <header>
         <div class="header-container">
             <h1>On-Time Limo & Taxi Services</h1>
+            <!-- Hamburger Icon for Mobile -->
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -161,7 +167,7 @@
         </ul>
         <div class="social-media">
             <a href="#">Facebook</a> | 
-            <a href="#">Twitter</a> | 
+            <a href="#">TikTok</a> | 
             <a href="#">Instagram</a>
         </div>
     </section>
@@ -172,5 +178,17 @@
             <p>&copy; 2024 Siva's Airport Limo Services. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+
+            hamburger.addEventListener('click', () => {
+                navMenu.classList.toggle('open');
+            });
+        });
+    </script>
 </body>
 </html>
