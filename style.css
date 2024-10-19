@@ -27,7 +27,7 @@ body::before {
 
 /* Header */
 header {
-    background-color: rgba(184, 134, 11, 0.9); /* Gold with transparency */
+    background-color: rgba(184, 134, 11, 0.9);
     color: white;
     padding: 15px 0;
 }
@@ -39,6 +39,11 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.header-container h1 {
+    font-size: 36px; /* Default font size */
+    transition: font-size 0.3s;
 }
 
 nav ul {
